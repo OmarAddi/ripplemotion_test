@@ -27,9 +27,10 @@
 
 `docker-compose up`
 
-6. Lien de l'application:
+## Accès à l'application
 
-`http://localhost:3000`
+* URL front: `http://localhost:3000`
+* URL back: `http://localhost:8000`
 
 ## Utilisation
 
