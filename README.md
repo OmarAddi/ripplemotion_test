@@ -10,21 +10,18 @@
 
 `git init`
 
-1. Clonez le dépôt:
+2. Clonez le dépôt:
 
 `git clone https://github.com/OmarADDI/ripplemotion_test.git`
 
-2. Déplacez-vous dans le répertoire du projet:
+3. Déplacez-vous dans le répertoire du projet:
 
 `cd ripplemotion_test`
 
-3. Créez l'application:
+4. Créez l'application:
 
 `docker-compose build`
 
-4. Appliquez les migrations de Django:
-
-`docker-compose run --rm api python3 manage.py migrate`
 
 5. Lancez l'application:
 
