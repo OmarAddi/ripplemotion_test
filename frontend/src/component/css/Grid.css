@@ -1,0 +1,15 @@
+
+.grid-table {
+
+	margin: auto;
+    border: solid 2px blue;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+}
+
+.grid-table td {
+    border: solid 2px #DDEEEE;
+    color: #333;
+    padding:  15px;
+}

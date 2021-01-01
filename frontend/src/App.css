@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+header {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  height: 15%;
+  color:#f4661b;
+}
+header img {
+  width: 30%;
+}
+.row{
+  margin-bottom: 10px;
+}
+
+p{
+  display: inline;
+  font-size: 12px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.alert_message{
+  color:red;
+}
+
+.croiseur{
+  color:white;
+  background-color: black;
+}
+
+.escorteur{
+  color:white;
+  background-color: green;
+}
+
+.torpilleur{
+  color:white;
+  background-color: red;
+}
+
+.sous-marin{
+  color:white;
+  background-color: blue;
+}
