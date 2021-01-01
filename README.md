@@ -37,7 +37,6 @@
 1. Entrez le nombre de colonnes et de lignes 
 2. Appuyez sur le bouton générer afin de visualiser le placement des bateaux sur la grille
 
-### Grille de taille 7x7
 La taille minimale de la grille est de 7x7 pour que le serveur puisse trouver les coordonnées, respectant les critères, pour chaque bateau.
 
 Cependant, le temps de génération des coordonnées sur cette taille de grille prend plusieurs secondes.
