@@ -15,6 +15,14 @@ header img {
   margin-bottom: 10px;
 }
 
+input{
+  margin-left: 5px;
+}
+
+button{
+  margin-left: 5px;
+}
+
 p{
   display: inline;
   font-size: 12px;

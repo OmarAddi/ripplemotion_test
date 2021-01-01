@@ -23,7 +23,7 @@ function App(){
 		deleteGrid(row,col);
 		axios.post('http://127.0.0.1:8000/api/grid/', {
     		width: col-1,
-    		length: row-1
+      	length: row-1
 		})
 		.finally(getShipCoordinates());
   	}
@@ -110,7 +110,7 @@ function App(){
 	return (
 		<Container fluid className="App">
 			<header>
-				<img src="logo_RM.png" alt=""/>
+				<img   src={process.env.PUBLIC_URL + 'logo_RM.png'} />
 				<h1>Bataille navale</h1>
 			</header>
 			<Row>
